@@ -1,0 +1,63 @@
+.quotes{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.quotes .quote{
+    margin: 50px 0;
+    font-size: 0.85rem;
+    overflow: auto;
+    padding: 8px 10px;
+    min-width: 150px;
+    min-height: 150px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px hsla(180, 100%, 25%, .3);
+}
+.quotes .new button{
+    width: 180px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border-radius: .4rem;
+    font-size: 1.1rem;
+    box-shadow: 0 8px 24px hsla(228, 81%, 24%, .15);
+}
+.quotes .quote .body-quote{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.quotes .fa-quote-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotes .fa-quote-left {
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.quotes .quote .body-quote{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.quotes .quote i{
+    margin: 3px 5px;
+}
